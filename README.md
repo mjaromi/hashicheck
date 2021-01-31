@@ -28,3 +28,9 @@ docker run -dit -p80:80 hashicheck:latest
 * `/<product>/<version>/` list available files for provided `product` and `version`
 * `/<product>/latest/` show latest version for provided `product` (exclude 'ent', 'beta, 'rc')
 * `/<product>/latest/ent` show latest enterprise version for provided `product` (exclude 'beta, 'rc')
+
+## Waypoint
+```
+waypoint init
+waypoint up
+```
