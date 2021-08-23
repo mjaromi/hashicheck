@@ -30,7 +30,9 @@ docker run -dit -p80:80 hashicheck:latest
 * `/<product>/latest/ent` show latest enterprise version for provided `product` (exclude 'beta, 'rc')
 
 ## Waypoint
+
 ```
+waypoint install -platform=docker -accept-tos
 waypoint init
 waypoint up
 ```
